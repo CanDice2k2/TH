@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="LoadData()">
+    <form id="question-form">
+        <p id="score"></p>
+        <div class="infor">
+            <label> <span> Ho va Ten </span> <input type="text" name="name" id="name" placeholder="Ho va Ten"> </label>
+            <label> <span> Ma Sinh Vien </span> <input type="text" name="stuNo" id="stuNo" placeholder="Ma Sinh Vien"> </label>
+            <label> <span> Ma Lop </span>  <input type="text" name="claa" id="class" placeholder="Ma Lop"> </label>
+            <label> <span> Ngay Sinh </span> <input type="date" name="date" id="date"> </label>
+        </div>
+        <ul id="question-list">
+        </ul>
+        <button type="submit" id="submit"> Submit </button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
